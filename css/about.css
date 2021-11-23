@@ -1,0 +1,37 @@
+.headHolder{
+    margin-top:20px;
+    text-align: center;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+
+
+.card-img-top{
+    box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+
+.box{
+    box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+
+.food{
+    margin-left:10px;
+}
+
+.lg{
+	height:50px;
+	width:50px;
+	margin-left: 20px;
+	mix-blend-mode: multiply;
+}
+
+.btn{
+	margin-left: 600px;
+}
+
+
+.col{
+    margin-top: 20px;
+}

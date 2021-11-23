@@ -1,0 +1,39 @@
+body{
+	background-image: url('reading.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	overflow: hidden;
+} 
+
+.container{
+    margin-top: 175px;
+    background-color: white;
+	color:white;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background: rgb(255,255,255);
+    background: rgba(255, 255, 255, 0.315);
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.btn{
+    margin-left: 115px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.formhead{
+    color:darkgreen;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+
+.form-control{
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    margin-left: 40px;
+}
