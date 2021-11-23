@@ -1,0 +1,95 @@
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script type = "text/javascript" src="jquery.js" ></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type = "text/javascript" src="_register.js"></script>
+       
+        <link rel = "stylesheet" href = "register.css" type="text/css" />
+    </head>
+
+    <body>
+
+        <div class = "col-6"></div>
+        <div class = "col-3 container">
+
+        <br>
+        <h4 class = "registerHolder">Get started!</h4>
+
+            <form action = "http://localhost:3000/register" method = "POST" id="form">
+            
+
+            <div class="form-group">
+            <div class = "col-5"></div>  
+                <div class="col-2 textHolder">
+                    <input type="name" class="form-control" id="username" placeholder="Username" name="uname">
+                </div>
+                <div class = "col-5"></div>
+            </div>
+
+
+            <div class="form-group">
+                <div class = "col-5"></div>  
+                    <div class="col-2 textHolder">
+                        <input type="name" class="form-control" id="firstname" placeholder="First Name" name="fname">
+                    </div>
+                    <div class = "col-5"></div>
+                </div>
+
+                
+            <div class="form-group">
+            <div class = "col-5"></div>  
+              <div class="col-2 textHolder">
+                <input type="name" class="form-control" id="lastname" placeholder="Last Name" name="lname">
+              </div>
+              <div class = "col-5"></div>
+
+            </div>
+
+
+            <div class="form-group">
+            <div class = "col-5"></div>  
+            <div class="col-2 textHolder">
+                    <input type="email" class="form-control" id="email" placeholder="Email Address" name="email">
+            </div>
+            <div class = "col-5"></div>
+            </div>
+
+            <div class="form-group">
+            <div class = "col-5"></div>  
+            <div class="col-2 textHolder">
+                    <input type="password" class="form-control" id="password" placeholder="Password" name="psswd">
+            </div>
+            <div class = "col-5"></div>
+        
+            </div>
+            <div class="form-group">
+            <div class = "col-5"></div>  
+            <div class="col-2 textHolder">
+                    <input type="password" class="form-control" id="psswd2" placeholder="Re-enter Password" name="psswd2"><span id="icon"><img src="i.jpeg" ></span>
+                       
+            </div>
+                <div class = "col-5"> <div class="tooltip">
+                            <span id="info" class="tooltiptext">Re-enter Matching Password</span>
+                    </div></div>
+
+            </div>
+        
+
+
+
+            <button type="button" id="rbtn" class="btn1 btn btn-success">Register</button>
+            <button type="button" id="cbtn" class="btn2 btn btn-success">Cancel</button>
+            <br>
+                    
+              <div class = "col-6"></div>
+              
+            </form>
+
+      </div>
+
+    </body>
+    
+</html>

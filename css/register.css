@@ -1,0 +1,125 @@
+body{
+    background-image: url(guy.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	overflow: hidden;
+} 
+
+
+.grp{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: grey;
+	color:white;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+}
+
+
+.form-control{
+    border-radius: 15px 15px 15px 15px;
+    width: 200px;
+    height: 30px;
+}
+
+
+.container{
+    margin-top: 75px;
+    background-color: white;
+	color:white;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background: rgb(255,255,255);
+    background: rgba(255, 255, 255, 0.315);
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+
+.textHolder{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.registerHolder{
+    color:darkgreen;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+
+.inline{
+    display:inline-block;
+}
+
+
+.btn1{
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.btn2{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.mv{
+    text-overflow: hidden;
+    text-indent: 50px;
+    color: green;
+    display: inline-block;
+}
+
+#icon img{
+    max-height: 20px;
+    /*margin-top: 28px;*/
+    margin-left: 220;
+    margin-top: -25;
+    display: inline-block;
+}
+.imgblock{
+    
+    margin-right: -90%;
+    margin-top:-10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  display: none;
+  opacity: 1 !important;
+
+  
+ }
+
+.tooltip .tooltiptext {
+  
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 60px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+   margin-left: 285px;
+  /*margin-bottom: 30px;*/
+  margin-top: -30px;
+}
+
+.tooltip:hover   {
+  visibility: visible;
+  display: inline-block;
+
+
+}

@@ -1,0 +1,128 @@
+.subjectHolder{
+	margin-top: 50px;
+	margin: 25px auto auto;
+}
+
+.contentHolder{
+	margin-top:100px;
+	margin-left: 100px;
+	background-color: grey;
+	color:white;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+}
+
+
+.courses{
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+
+#bt{
+	display: inline-block;
+	margin-top:300px;
+	margin: 25px auto auto;
+	margin-bottom: 35px;
+	margin-left: 20px;
+	
+}
+
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+
+body{
+	background-image: url('reading.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	overflow: hidden;
+} 
+
+.inline{
+	display: inline-block;
+	color: white;
+ 	/*font-family: Arial, Helvetica, sans-serif;
+ 	font-size: 20px;*/
+ 	margin-left: 30px;
+ 	margin-top: 50px;
+
+}
+
+.container{
+	padding-right: 0px;
+	padding-left:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.navbar{
+	padding-right: 0px;
+	padding-left:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+
+.inf{
+	margin-top: 50px;
+	margin-left: 100px;
+	background-color: grey;
+	color:white;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+}
+
+.about{
+	margin-top: 15px;
+}
+
+.btn_signup{
+	margin-left: 565px;
+}
+
+.btn_login{
+	margin-left: 15px;
+}
+
+
+.lg{
+	height:50px;
+	width:50px;
+	margin-left: 20px;
+	mix-blend-mode: multiply;
+}
+
+
+.btn1{
+	margin-left: 600px;
+}
+
+
+
+.box{
+	background-color: white;
+	opacity:0.7;
+	margin-left: 350px;
+	margin-top:125px;
+}
+
+
+.formhead{
+	color: #5cb85c;
+	margin-left:65px;
+}
+
+
+.btnsign{
+	margin-left:600px;
+}
